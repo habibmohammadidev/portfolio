@@ -1,7 +1,12 @@
 /** @type {import('next').NextConfig} */
+const isProd = process.env.NODE_ENV === 'production';
+const repoName = 'portfolio'; // Leave empty if using custom domain or username.github.io
+
 const nextConfig = {
   reactStrictMode: true,
   output: 'export',
+  basePath: isProd && repoName ? `/${repoName}` : '',
+  assetPrefix: isProd && repoName ? `/${repoName}` : '',
   images: {
     unoptimized: true,
   },
