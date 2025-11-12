@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import Image from 'next/image';
-import { FaGithub, FaLinkedin, FaTwitter, FaInstagram, FaStackOverflow } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaTwitter, FaInstagram, FaStackOverflow, FaDownload } from 'react-icons/fa';
 import { HiMail } from 'react-icons/hi';
 import { personalInfo, socialLinks } from '@/data/content';
 
@@ -96,6 +96,21 @@ const HeroSection = () => {
             >
               <HiMail className="w-4 h-4 mr-2" />
               <span>Get in touch</span>
+            </a>
+          </motion.div>
+          <motion.div
+            whileHover={{ scale: 1.02, y: -1 }}
+            whileTap={{ scale: 0.98 }}
+            transition={{ duration: 0.2, ease: 'easeOut' }}
+          >
+            <a
+              className="flex items-center border border-gray-700/50 text-gray-300 hover:bg-gray-800/30 transition-all duration-300 py-2 px-4 rounded-sm"
+              href="/resume/Habib Mohammadi - resume 2025.11.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaDownload className="w-4 h-4 mr-2" />
+              <span>Resume</span>
             </a>
           </motion.div>
         </div>

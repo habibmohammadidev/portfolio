@@ -74,5 +74,5 @@ MIT License - see the [LICENSE](LICENSE) file for details.
 
 - **Email:** ha.mohammadi.dev@gmail.com
 - **LinkedIn:** [linkedin.com/in/ha-mohammadi](https://www.linkedin.com/in/ha-mohammadi/)
-- **GitHub:** [github.com/hamedmohammadi](https://github.com/hamedmohammadi)
+- **GitHub:** [github.com/hamohammadidev](https://github.com/hamohammadidev)
 - **Stack Overflow:** [stackoverflow.com/users/1598912](https://stackoverflow.com/users/1598912/habib-mohammadi)

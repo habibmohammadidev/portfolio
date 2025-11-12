@@ -157,7 +157,7 @@ export const personalInfo = {
 export const socialLinks = [
   {
     title: "GitHub",
-    url: "https://github.com/hamedmohammadi"
+    url: "https://github.com/hamohammadidev"
   },
   {
     title: "Stack Overflow",

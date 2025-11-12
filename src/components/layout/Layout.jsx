@@ -1,7 +1,8 @@
 import { motion } from 'framer-motion';
 import Link from 'next/link';
 import Image from 'next/image';
-import { FaGithub, FaStackOverflow, FaLinkedin } from 'react-icons/fa';
+import { FaGithub, FaStackOverflow, FaLinkedin, FaDownload } from 'react-icons/fa';
+import { socialLinks } from '@/data/content';
 
 const Header = () => {
   return (
@@ -19,14 +20,16 @@ const Header = () => {
           </Link>
         </div>
         <div className="flex items-center gap-4 text-gray-400">
-          <Link href="https://github.com/habibmohammadi" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
-            <FaGithub className="w-6 h-6 hover:text-white transition-colors duration-200" />
-          </Link>
-          <Link href="https://stackoverflow.com/users/1164752/habib-mohammadi" target="_blank" rel="noopener noreferrer" aria-label="Stack Overflow">
-            <FaStackOverflow className="w-6 h-6 hover:text-orange-400 transition-colors duration-200" />
-          </Link>
-          <Link href="https://www.linkedin.com/in/habibollah-mohammadi/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
-            <FaLinkedin className="w-6 h-6 hover:text-blue-400 transition-colors duration-200" />
+          {socialLinks.map((link) => {
+            const Icon = link.title === 'GitHub' ? FaGithub : link.title === 'Stack Overflow' ? FaStackOverflow : FaLinkedin;
+            return (
+              <Link key={link.title} href={link.url} target="_blank" rel="noopener noreferrer" aria-label={link.title}>
+                <Icon className="w-6 h-6 hover:text-white transition-colors duration-200" />
+              </Link>
+            );
+          })}
+          <Link href="/resume/Habib Mohammadi - resume 2025.11.pdf" target="_blank" rel="noopener noreferrer" aria-label="Download Resume">
+            <FaDownload className="w-5 h-5 hover:text-white transition-colors duration-200" />
           </Link>
         </div>
       </nav>
