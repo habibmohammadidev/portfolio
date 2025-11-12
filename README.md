@@ -68,7 +68,7 @@ Edit `src/data/content.js` to update:
 
 ## 📄 License
 
-© 2024 Habibollah Mohammadi. All rights reserved.
+MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 📧 Contact
 
