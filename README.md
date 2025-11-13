@@ -1,4 +1,4 @@
-# Habibollah Mohammadi - Senior iOS Developer Portfolio
+# Habib Mohammadi - Senior iOS Developer Portfolio
 
 A modern, responsive portfolio website showcasing my experience as a Senior iOS Developer, built with Next.js and Tailwind CSS.
 
