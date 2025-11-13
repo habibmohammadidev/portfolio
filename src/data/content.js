@@ -144,11 +144,12 @@ import {
 import { DiJava } from 'react-icons/di';
 import { TbCode } from 'react-icons/tb';
 import { TbBrandSwift } from 'react-icons/tb';
+import { assetPath } from '../utils/assetPath';
 
 export const personalInfo = {
   name: "Habib Mohammadi",
   title: "Senior iOS Developer",
-  avatar: "/images/about/habib-mohammadi.webp",
+  avatar: assetPath("/images/about/habib-mohammadi.webp"),
   email: "ha.mohammadi.dev@gmail.com",
   location: "Berlin, Germany",
   description: "Hey there! I'm Habib, a passionate iOS developer who's been crafting mobile experiences for over a decade. Based in Berlin, I've had the privilege of working with amazing teams to build apps that people actually love using. From startups to established companies, I've learned that great software isn't just about clean code—it's about understanding users and solving real problems. I'm always eager to learn new things, share knowledge with fellow developers, and contribute to projects that make a difference. When I'm not coding in Swift or exploring the latest iOS features, you'll find me diving into AI technologies or tinkering with backend systems."
@@ -309,27 +310,27 @@ export const projects = [
   {
     title: "Enote - Smart Sheet Music",
     description: "A revolutionary iOS app that's changing how musicians interact with sheet music. Features AI-powered score analysis, real-time annotations, and seamless PDF integration. I'm particularly proud of the custom rendering engine I built for our proprietary digital score format.",
-    image: "/images/projects/enote.png",
+    image: assetPath("/images/projects/enote.png"),
     url: "https://enote.com",
     techStack: ["Swift", "UIKit", "Core Data", "AI/ML", "C++ Integration"]
   },
   {
     title: "Ding Plus - Smart Attendance",
     description: "An innovative attendance solution that leverages iBeacon technology and geofencing. What started as a simple check-in app evolved into a comprehensive workforce management tool used by thousands of businesses. The real-time synchronization was quite a challenge to get right!",
-    image: "/images/projects/ding.png",
+    image: assetPath("/images/projects/ding.png"),
     url: "https://dingontime.com/",
     techStack: ["Swift", "UIKit", "iBeacon", "Core Location", "CloudKit"]
   },
   {
     title: "Melo - Music Streaming",
     description: "A music streaming app that I built to compete with major players in the Iranian market. Integrated Apple Music API while building custom playback features. The offline synchronization and smart caching system was something I'm especially proud of.",
-    image: "/images/projects/melo.png",
+    image: assetPath("/images/projects/melo.png"),
     techStack: ["Swift", "UIKit", "Apple Music API", "AVFoundation", "Core Data"]
   },
   {
     title: "Adimo - Digital Signage",
     description: "A comprehensive digital advertising platform with iOS clients managing thousands of screens across multiple countries. Built real-time content delivery and analytics dashboard. The scalability challenges taught me a lot about efficient iOS architecture.",
-    image: "/images/projects/adimo.png",
+    image: assetPath("/images/projects/adimo.png"),
     techStack: ["Swift", "UIKit", "WebSocket", "REST API", "Core Graphics"]
   }
 ];
@@ -338,21 +339,21 @@ export const certifications = [
   
   {
     title: "Master's in Software Engineering",
-    image: "/images/certifications/masters.webp",
+    image: assetPath("/images/certifications/masters.webp"),
     issuer: "Azad Qazvin University",
     date: "2015",
     description: "Thesis: A New Approach for Data Clustering Using Multi-layered learning cellular automata"
   },
   {
     title: "Bachelor's in Software Engineering",
-    image: "/images/certifications/bachelors.webp",
+    image: assetPath("/images/certifications/bachelors.webp"),
     issuer: "Science and Culture University",
     date: "2007 - 2013",
     description: "Grade B - Foundation in software development, algorithms, and computer science fundamentals"
   },
   {
     title: "Machine Learning Bootcamp",
-    image: "/images/certifications/stanford-ml.webp",
+    image: assetPath("/images/certifications/stanford-ml.webp"),
     url: "https://coursera.org/stanford-ml",
     issuer: "Stanford University",
     date: "2019"
