@@ -148,7 +148,7 @@ import { TbBrandSwift } from 'react-icons/tb';
 export const personalInfo = {
   name: "Habib Mohammadi",
   title: "Senior iOS Developer",
-  avatar: "/images/about/personal-photo.jpg",
+  avatar: "images/about/personal-photo.jpg",
   email: "ha.mohammadi.dev@gmail.com",
   location: "Berlin, Germany",
   description: "Hey there! I'm Habib, a passionate iOS developer who's been crafting mobile experiences for over a decade. Based in Berlin, I've had the privilege of working with amazing teams to build apps that people actually love using. From startups to established companies, I've learned that great software isn't just about clean code—it's about understanding users and solving real problems. I'm always eager to learn new things, share knowledge with fellow developers, and contribute to projects that make a difference. When I'm not coding in Swift or exploring the latest iOS features, you'll find me diving into AI technologies or tinkering with backend systems."
