@@ -1,10 +1,11 @@
 import { Html, Head, Main, NextScript } from 'next/document';
 
 export default function Document() {
+  const basePath = process.env.DEPLOY_TARGET === 'github-pages' ? '/portfolio' : '';
   return (
     <Html lang="en">
       <Head>
-        <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+        <link rel="icon" href={`${basePath}/favicon.svg`} type="image/svg+xml" />
         <meta name="description" content="Habib Mohammadi - Senior iOS Developer with 10+ years experience in Swift, UIKit, SwiftUI. Expert in mobile app development, AI/ML integration, and iOS architecture." />
         <meta name="keywords" content="iOS Developer, Swift Developer, Mobile App Development, SwiftUI, UIKit, iOS Engineer, Berlin, Habib Mohammadi" />
         <meta name="author" content="Habib Mohammadi" />
