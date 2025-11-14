@@ -12,11 +12,11 @@ export default function Document() {
         <meta property="og:description" content="Senior iOS Developer specializing in Swift, SwiftUI, and mobile app architecture. 10+ years building innovative iOS applications." />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://habibmohammadidev.github.io/portfolio/" />
-        <meta property="og:image" content="https://habibmohammadidev.github.io/portfolio/images/about/habib-mohammadi.webp" />
+        <meta property="og:image" content="https://habibmohammadidev.github.io/portfolio/images/about/personal-photo.jpg" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Habib Mohammadi - Senior iOS Developer" />
         <meta name="twitter:description" content="Senior iOS Developer with 10+ years experience in Swift, UIKit, SwiftUI, and mobile app development." />
-        <meta name="twitter:image" content="https://habibmohammadidev.github.io/portfolio/images/about/habib-mohammadi.webp" />
+        <meta name="twitter:image" content="https://habibmohammadidev.github.io/portfolio/images/about/personal-photo.jpg" />
         <link rel="canonical" href="https://habibmohammadidev.github.io/portfolio/" />
       </Head>
       <body>

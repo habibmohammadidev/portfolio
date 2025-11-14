@@ -14,8 +14,14 @@ const HeroSection = () => {
         transition={{ duration: 0.8, delay: 0.1, ease: 'easeOut' }}
         className="flex flex-col items-center lg:items-start"
       >
-        <div className="w-42 h-42 mb-6 ring-2 ring-gray-800 relative rounded-full overflow-hidden bg-gray-800 flex items-center justify-center">
-          <span className="text-4xl font-bold">{personalInfo.name.split(' ').map(n => n[0]).join('')}</span>
+        <div className="w-48 h-48 mb-6 ring-2 ring-gray-800 relative rounded-full overflow-hidden">
+          <Image
+            src={personalInfo.avatar}
+            alt={personalInfo.name}
+            width={192}
+            height={192}
+            className="w-full h-full object-cover"
+          />
         </div>
 
         <motion.div
