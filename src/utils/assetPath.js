@@ -1,2 +1,1 @@
 const basePath = process.env.DEPLOY_TARGET === 'github-pages' ? '/portfolio' : '';
-

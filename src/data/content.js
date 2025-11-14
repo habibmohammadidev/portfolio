@@ -179,7 +179,7 @@ export const workExperience = [
     bulletPoints: [
       "Architected and built a sophisticated PDF and digital music score viewer with real-time annotation capabilities using Swift and UIKit",
       "Pioneered AI-assisted bitmap layers and music notation editor for our proprietary digital score format, enhancing user creativity",
-      "Successfully bridged C++ audio processing libraries with Swift, creating seamless native iOS integration",
+      "Successfully bridged C++ audio processing, note view rendering libraries to Swift, creating seamless native iOS integration",
       "Designed an intelligent download service that learns from user behavior to prioritize music score formats, improving user experience",
       "Built modular, reusable SDKs that enabled offline-first functionality across the entire product suite",
       "Leveraged modern Swift concurrency (async-await, actors) and Combine framework to deliver smooth, responsive user experiences",
@@ -223,85 +223,99 @@ export const skills = [
     name: "Swift",
     icon: SiSwift,
     color: "#F05138",
-    type: "iOS Core"
+    type: "iOS Core",
+    url: "https://swift.org"
   },
   {
     name: "Objective-C",
     icon: TbCode,
     color: "#438EFF",
-    type: "iOS Core"
+    type: "iOS Core",
+    url: "https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/ProgrammingWithObjectiveC/Introduction/Introduction.html"
   },
   {
     name: "SwiftUI",
     icon: SiSwift,
     color: "#F05138",
-    type: "iOS Framework"
+    type: "iOS Framework",
+    url: "https://developer.apple.com/swiftui/"
   },
   {
     name: "UIKit",
     icon: FaPalette,
     color: "#FFCC00",
-    type: "iOS Framework"
+    type: "iOS Framework",
+    url: "https://developer.apple.com/documentation/uikit"
   },
   {
     name: "Xcode",
     icon: SiXcode,
     color: "#007AFF",
-    type: "iOS Tools"
+    type: "iOS Tools",
+    url: "https://developer.apple.com/xcode/"
   },
   {
     name: "Core Data",
     icon: FaDatabase,
     color: "#4CAF50",
-    type: "iOS Framework"
+    type: "iOS Framework",
+    url: "https://developer.apple.com/documentation/coredata"
   },
   {
     name: "SwiftData",
     icon: FaDatabase,
     color: "#4CAF50",
-    type: "iOS Framework"
+    type: "iOS Framework",
+    url: "https://developer.apple.com/xcode/swiftdata/"
   },
   {
     name: "Combine",
     icon: FaCode,
     color: "#2196F3",
-    type: "iOS Framework"
+    type: "iOS Framework",
+    url: "https://developer.apple.com/documentation/combine"
   },
   {
     name: "Core Animation",
     icon: FaPalette,
     color: "#FF6B6B",
-    type: "iOS Framework"
+    type: "iOS Framework",
+    url: "https://developer.apple.com/documentation/quartzcore"
   },
   {
     name: "AVFoundation",
     icon: FaCode,
     color: "#4ECDC4",
-    type: "iOS Framework"
+    type: "iOS Framework",
+    url: "https://developer.apple.com/av-foundation/"
   },
   {
     name: "CloudKit",
     icon: FaCloud,
     color: "#45B7D1",
-    type: "iOS Framework"
+    type: "iOS Framework",
+    url: "https://developer.apple.com/icloud/cloudkit/"
   },
   {
     name: "TestFlight",
     icon: FaApple,
     color: "#007AFF",
-    type: "iOS Tools"
+    type: "iOS Tools",
+    url: "https://developer.apple.com/testflight/"
   },
   {
     name: "Instruments",
     icon: FaTerminal,
     color: "#FF9500",
-    type: "iOS Tools"
+    type: "iOS Tools",
+    url: "https://developer.apple.com/tutorials/instruments"
   },
   {
     name: "Git",
     icon: FaGitAlt,
     color: "#F15029",
-    type: "DevOps"
+    type: "DevOps",
+    url: "https://git-scm.com"
   }
 ];
 
