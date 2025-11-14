@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://habibmohammadidev.github.io/portfolio/sitemap.xml
